@@ -1,0 +1,535 @@
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1661102025114512, "dur":2319, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1661102025116839, "dur":123, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
+,{ "pid":12345, "tid":0, "ts":1661102025116976, "dur":38, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
+,{ "pid":12345, "tid":0, "ts":1661102025117017, "dur":819, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
+,{ "pid":12345, "tid":0, "ts":1661102025117959, "dur":809, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1661102025118768, "dur":1, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1661102025299105, "dur":210, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1661102025299315, "dur":50, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1661102025299365, "dur":22, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1661102025299387, "dur":16, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1661102025299403, "dur":4, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1661102025299407, "dur":12, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1661102025299419, "dur":4, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1661102025299423, "dur":15, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1661102025299438, "dur":4, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1661102025299442, "dur":11, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1661102025299453, "dur":4, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1661102025299457, "dur":9, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1661102025299466, "dur":4, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1661102025299470, "dur":11, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1661102025299481, "dur":4, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1661102025299486, "dur":11, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1661102025299497, "dur":0, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1661102025299514, "dur":2, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1661102025299518, "dur":4236, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1661102025118631, "dur":161, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1661102025118792, "dur":9328, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1661102025128124, "dur":1036, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Build-22.8.22.8/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":1, "ts":1661102025129164, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1661102025135375, "dur":4920, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Build-22.8.22.8/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":1, "ts":1661102025140392, "dur":819, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Build-22.8.22.8/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":1, "ts":1661102025141220, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1661102025141355, "dur":3001, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Build-22.8.22.8/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":1, "ts":1661102025144446, "dur":4293, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Build-22.8.22.8/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":1, "ts":1661102025148745, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1661102025148754, "dur":4221, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Build-22.8.22.8/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":1, "ts":1661102025153061, "dur":1291, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Build-22.8.22.8/Pixel Shooter_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1661102025154359, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1661102025154370, "dur":4382, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Build-22.8.22.8/Pixel Shooter_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1661102025158847, "dur":940, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Build-22.8.22.8/Pixel Shooter_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1661102025159795, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1661102025159805, "dur":3946, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Build-22.8.22.8/Pixel Shooter_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1661102025163843, "dur":1302, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Build-22.8.22.8/Pixel Shooter_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1661102025165151, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1661102025165161, "dur":6865, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Build-22.8.22.8/Pixel Shooter_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1661102025172188, "dur":704, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Build-22.8.22.8/Pixel Shooter_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1661102025172900, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1661102025172908, "dur":3621, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Build-22.8.22.8/Pixel Shooter_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1661102025176618, "dur":1123, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Build-22.8.22.8/Pixel Shooter_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1661102025177751, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1661102025177764, "dur":2668, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Build-22.8.22.8/Pixel Shooter_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1661102025180644, "dur":691, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Build-22.8.22.8/Pixel Shooter_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1661102025181342, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1661102025181351, "dur":5175, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Build-22.8.22.8/Pixel Shooter_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1661102025186716, "dur":804, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Build-22.8.22.8/Pixel Shooter_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1661102025187527, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1661102025187537, "dur":3879, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Build-22.8.22.8/Pixel Shooter_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1661102025191502, "dur":585, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Build-22.8.22.8/Pixel Shooter_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1661102025192094, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1661102025192105, "dur":3510, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Build-22.8.22.8/Pixel Shooter_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1661102025195747, "dur":1072, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Build-22.8.22.8/Pixel Shooter_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":1, "ts":1661102025196823, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1661102025196831, "dur":3012, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Build-22.8.22.8/Pixel Shooter_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":1, "ts":1661102025199939, "dur":1241, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Build-22.8.22.8/Pixel Shooter_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1661102025201187, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1661102025201199, "dur":4026, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Build-22.8.22.8/Pixel Shooter_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1661102025205305, "dur":376, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Build-22.8.22.8/Pixel Shooter_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1661102025205688, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1661102025205699, "dur":3150, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Build-22.8.22.8/Pixel Shooter_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1661102025208946, "dur":389, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Build-22.8.22.8/Pixel Shooter_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":1, "ts":1661102025209342, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1661102025209353, "dur":6123, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Build-22.8.22.8/Pixel Shooter_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":1, "ts":1661102025215577, "dur":307, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Build-22.8.22.8/Pixel Shooter_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":1, "ts":1661102025215892, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1661102025215903, "dur":3822, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Build-22.8.22.8/Pixel Shooter_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":1, "ts":1661102025219819, "dur":994, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Build-22.8.22.8/Pixel Shooter_Data/Managed/Unity.Burst.dll" }}
+,{ "pid":12345, "tid":1, "ts":1661102025220817, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1661102025220824, "dur":4400, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Build-22.8.22.8/Pixel Shooter_Data/Managed/Unity.Burst.dll" }}
+,{ "pid":12345, "tid":1, "ts":1661102025225328, "dur":1968, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Build-22.8.22.8/Pixel Shooter_Data/Managed/Unity.Burst.Cecil.dll" }}
+,{ "pid":12345, "tid":1, "ts":1661102025227352, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1661102025227364, "dur":5060, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Build-22.8.22.8/Pixel Shooter_Data/Managed/Unity.Burst.Cecil.dll" }}
+,{ "pid":12345, "tid":1, "ts":1661102025232517, "dur":1976, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Build-22.8.22.8/Pixel Shooter_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":1, "ts":1661102025234500, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1661102025234557, "dur":7007, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Build-22.8.22.8/Pixel Shooter_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":1, "ts":1661102025241743, "dur":3506, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Build-22.8.22.8/Pixel Shooter_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":1, "ts":1661102025245256, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1661102025245266, "dur":5987, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Build-22.8.22.8/Pixel Shooter_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":1, "ts":1661102025251342, "dur":720, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Build-22.8.22.8/Pixel Shooter_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":1, "ts":1661102025252066, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1661102025252073, "dur":4292, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Build-22.8.22.8/Pixel Shooter_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":1, "ts":1661102025256616, "dur":121, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Build-22.8.22.8/Pixel Shooter_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":1, "ts":1661102025256741, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1661102025256886, "dur":5768, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Build-22.8.22.8/Pixel Shooter_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":1, "ts":1661102025262837, "dur":318, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Build-22.8.22.8/Pixel Shooter_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":1, "ts":1661102025263162, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1661102025263172, "dur":4123, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Build-22.8.22.8/Pixel Shooter_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":1, "ts":1661102025267499, "dur":100, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Build-22.8.22.8/Pixel Shooter_Data/level1" }}
+,{ "pid":12345, "tid":1, "ts":1661102025267605, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1661102025267612, "dur":5241, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Build-22.8.22.8/Pixel Shooter_Data/level1" }}
+,{ "pid":12345, "tid":1, "ts":1661102025272947, "dur":26152, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1661102025118651, "dur":153, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1661102025118804, "dur":9399, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1661102025128203, "dur":174, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Build-22.8.22.8/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":2, "ts":1661102025128380, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1661102025131963, "dur":6639, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Build-22.8.22.8/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":2, "ts":1661102025138692, "dur":884, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Build-22.8.22.8/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":2, "ts":1661102025139580, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1661102025140074, "dur":5331, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Build-22.8.22.8/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":2, "ts":1661102025145504, "dur":181, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Build-22.8.22.8/Pixel Shooter_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":2, "ts":1661102025145692, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1661102025147847, "dur":8789, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Build-22.8.22.8/Pixel Shooter_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":2, "ts":1661102025156745, "dur":816, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Build-22.8.22.8/Pixel Shooter_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1661102025157568, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1661102025157579, "dur":3363, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Build-22.8.22.8/Pixel Shooter_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1661102025161010, "dur":932, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Build-22.8.22.8/Pixel Shooter_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1661102025161949, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1661102025161961, "dur":2978, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Build-22.8.22.8/Pixel Shooter_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1661102025165026, "dur":2117, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Build-22.8.22.8/Pixel Shooter_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1661102025167148, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1661102025167158, "dur":3980, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Build-22.8.22.8/Pixel Shooter_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1661102025171240, "dur":384, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Build-22.8.22.8/Pixel Shooter_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1661102025171629, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1661102025171638, "dur":3446, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Build-22.8.22.8/Pixel Shooter_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1661102025175175, "dur":672, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Build-22.8.22.8/Pixel Shooter_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1661102025175853, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1661102025175861, "dur":3590, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Build-22.8.22.8/Pixel Shooter_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1661102025179563, "dur":707, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Build-22.8.22.8/Pixel Shooter_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1661102025180278, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1661102025180288, "dur":3205, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Build-22.8.22.8/Pixel Shooter_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1661102025183592, "dur":475, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Build-22.8.22.8/Pixel Shooter_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1661102025184075, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1661102025184086, "dur":2656, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Build-22.8.22.8/Pixel Shooter_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1661102025186832, "dur":892, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Build-22.8.22.8/Pixel Shooter_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1661102025187727, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1661102025187763, "dur":4043, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Build-22.8.22.8/Pixel Shooter_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1661102025191907, "dur":661, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Build-22.8.22.8/Pixel Shooter_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1661102025192575, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1661102025192586, "dur":4251, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Build-22.8.22.8/Pixel Shooter_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1661102025196925, "dur":2214, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Build-22.8.22.8/Pixel Shooter_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1661102025199144, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1661102025199153, "dur":5949, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Build-22.8.22.8/Pixel Shooter_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1661102025205188, "dur":834, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Build-22.8.22.8/Pixel Shooter_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1661102025206028, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1661102025206037, "dur":3250, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Build-22.8.22.8/Pixel Shooter_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1661102025209377, "dur":313, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Build-22.8.22.8/Pixel Shooter_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":2, "ts":1661102025209695, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1661102025209702, "dur":5410, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Build-22.8.22.8/Pixel Shooter_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":2, "ts":1661102025215201, "dur":283, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Build-22.8.22.8/Pixel Shooter_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":2, "ts":1661102025215489, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1661102025215497, "dur":5727, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Build-22.8.22.8/Pixel Shooter_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":2, "ts":1661102025221372, "dur":789, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Build-22.8.22.8/Pixel Shooter_Data/Managed/Unity.Burst.Cecil.Rocks.dll" }}
+,{ "pid":12345, "tid":2, "ts":1661102025222200, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1661102025222206, "dur":4105, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Build-22.8.22.8/Pixel Shooter_Data/Managed/Unity.Burst.Cecil.Rocks.dll" }}
+,{ "pid":12345, "tid":2, "ts":1661102025226411, "dur":297, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Build-22.8.22.8/Pixel Shooter_Data/Managed/Unity.2D.PixelPerfect.dll" }}
+,{ "pid":12345, "tid":2, "ts":1661102025226712, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1661102025226719, "dur":4117, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Build-22.8.22.8/Pixel Shooter_Data/Managed/Unity.2D.PixelPerfect.dll" }}
+,{ "pid":12345, "tid":2, "ts":1661102025230939, "dur":6209, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Build-22.8.22.8/Pixel Shooter_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":2, "ts":1661102025237156, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1661102025237167, "dur":7453, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Build-22.8.22.8/Pixel Shooter_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":2, "ts":1661102025244721, "dur":772, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Build-22.8.22.8/Pixel Shooter_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":2, "ts":1661102025245497, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1661102025245508, "dur":5278, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Build-22.8.22.8/Pixel Shooter_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":2, "ts":1661102025251519, "dur":475, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Build-22.8.22.8/Pixel Shooter_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":2, "ts":1661102025252002, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1661102025252010, "dur":3550, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Build-22.8.22.8/Pixel Shooter_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":2, "ts":1661102025255665, "dur":335, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Build-22.8.22.8/Pixel Shooter_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":2, "ts":1661102025256005, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1661102025256760, "dur":3253, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Build-22.8.22.8/Pixel Shooter_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":2, "ts":1661102025260113, "dur":94, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Build-22.8.22.8/Pixel Shooter_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":2, "ts":1661102025260211, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1661102025260260, "dur":5787, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Build-22.8.22.8/Pixel Shooter_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":2, "ts":1661102025266178, "dur":1006, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Build-22.8.22.8/Pixel Shooter_Data/resources.assets" }}
+,{ "pid":12345, "tid":2, "ts":1661102025267194, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1661102025267207, "dur":4568, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Build-22.8.22.8/Pixel Shooter_Data/resources.assets" }}
+,{ "pid":12345, "tid":2, "ts":1661102025271870, "dur":299, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Build-22.8.22.8/Pixel Shooter_Data/boot.config" }}
+,{ "pid":12345, "tid":2, "ts":1661102025272175, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1661102025272185, "dur":2299, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Build-22.8.22.8/Pixel Shooter_Data/boot.config" }}
+,{ "pid":12345, "tid":2, "ts":1661102025274587, "dur":24536, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1661102025118808, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1661102025118809, "dur":9323, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1661102025128137, "dur":235, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Build-22.8.22.8/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":3, "ts":1661102025128377, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1661102025131162, "dur":7303, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Build-22.8.22.8/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":3, "ts":1661102025138561, "dur":199, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Build-22.8.22.8/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":3, "ts":1661102025138766, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1661102025138774, "dur":3471, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Build-22.8.22.8/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":3, "ts":1661102025142347, "dur":186, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Build-22.8.22.8/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":3, "ts":1661102025142537, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1661102025142550, "dur":2590, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Build-22.8.22.8/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":3, "ts":1661102025145241, "dur":1402, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Build-22.8.22.8/Pixel Shooter.exe" }}
+,{ "pid":12345, "tid":3, "ts":1661102025146650, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1661102025146663, "dur":3950, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Build-22.8.22.8/Pixel Shooter.exe" }}
+,{ "pid":12345, "tid":3, "ts":1661102025150708, "dur":2036, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Build-22.8.22.8/Pixel Shooter_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1661102025152753, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1661102025152765, "dur":4120, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Build-22.8.22.8/Pixel Shooter_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1661102025156980, "dur":420, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Build-22.8.22.8/Pixel Shooter_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1661102025157406, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1661102025157416, "dur":4314, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Build-22.8.22.8/Pixel Shooter_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1661102025161817, "dur":914, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Build-22.8.22.8/Pixel Shooter_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1661102025162737, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1661102025162747, "dur":2951, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Build-22.8.22.8/Pixel Shooter_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1661102025165780, "dur":720, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Build-22.8.22.8/Pixel Shooter_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":3, "ts":1661102025166504, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1661102025166510, "dur":5523, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Build-22.8.22.8/Pixel Shooter_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":3, "ts":1661102025172169, "dur":364, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Build-22.8.22.8/Pixel Shooter_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1661102025172538, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1661102025172547, "dur":5297, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Build-22.8.22.8/Pixel Shooter_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1661102025177949, "dur":742, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Build-22.8.22.8/Pixel Shooter_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1661102025178700, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1661102025178806, "dur":2250, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Build-22.8.22.8/Pixel Shooter_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1661102025181163, "dur":689, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Build-22.8.22.8/Pixel Shooter_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1661102025181861, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1661102025181873, "dur":3958, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Build-22.8.22.8/Pixel Shooter_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1661102025185935, "dur":1313, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Build-22.8.22.8/Pixel Shooter_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1661102025187256, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1661102025187268, "dur":6600, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Build-22.8.22.8/Pixel Shooter_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1661102025193965, "dur":760, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Build-22.8.22.8/Pixel Shooter_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1661102025194731, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1661102025194741, "dur":3433, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Build-22.8.22.8/Pixel Shooter_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1661102025198273, "dur":785, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Build-22.8.22.8/Pixel Shooter_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1661102025199103, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1661102025199114, "dur":4511, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Build-22.8.22.8/Pixel Shooter_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1661102025203729, "dur":790, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Build-22.8.22.8/Pixel Shooter_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1661102025204524, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1661102025204537, "dur":6672, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Build-22.8.22.8/Pixel Shooter_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1661102025211366, "dur":590, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Build-22.8.22.8/Pixel Shooter_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":3, "ts":1661102025211965, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1661102025211978, "dur":3519, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Build-22.8.22.8/Pixel Shooter_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":3, "ts":1661102025215618, "dur":286, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Build-22.8.22.8/Pixel Shooter_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":3, "ts":1661102025215908, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1661102025215915, "dur":3584, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Build-22.8.22.8/Pixel Shooter_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":3, "ts":1661102025219597, "dur":329, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Build-22.8.22.8/Pixel Shooter_Data/Managed/Unity.InternalAPIEngineBridge.001.dll" }}
+,{ "pid":12345, "tid":3, "ts":1661102025219933, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1661102025219958, "dur":3494, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Build-22.8.22.8/Pixel Shooter_Data/Managed/Unity.InternalAPIEngineBridge.001.dll" }}
+,{ "pid":12345, "tid":3, "ts":1661102025223555, "dur":859, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Build-22.8.22.8/Pixel Shooter_Data/Managed/Unity.Burst.Cecil.Mdb.dll" }}
+,{ "pid":12345, "tid":3, "ts":1661102025224423, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1661102025224436, "dur":2484, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Build-22.8.22.8/Pixel Shooter_Data/Managed/Unity.Burst.Cecil.Mdb.dll" }}
+,{ "pid":12345, "tid":3, "ts":1661102025227020, "dur":387, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Build-22.8.22.8/Pixel Shooter_Data/Managed/Unity.2D.Animation.Runtime.dll" }}
+,{ "pid":12345, "tid":3, "ts":1661102025227414, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1661102025227424, "dur":4616, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Build-22.8.22.8/Pixel Shooter_Data/Managed/Unity.2D.Animation.Runtime.dll" }}
+,{ "pid":12345, "tid":3, "ts":1661102025232151, "dur":1216, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Build-22.8.22.8/Pixel Shooter_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":3, "ts":1661102025233373, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1661102025233384, "dur":5698, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Build-22.8.22.8/Pixel Shooter_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":3, "ts":1661102025239183, "dur":372, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Build-22.8.22.8/Pixel Shooter_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":3, "ts":1661102025239563, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1661102025239575, "dur":3701, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Build-22.8.22.8/Pixel Shooter_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":3, "ts":1661102025243368, "dur":4360, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Build-22.8.22.8/Pixel Shooter_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":3, "ts":1661102025247740, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1661102025247753, "dur":10846, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Build-22.8.22.8/Pixel Shooter_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":3, "ts":1661102025258701, "dur":4055, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Build-22.8.22.8/Pixel Shooter_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":3, "ts":1661102025262761, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1661102025262770, "dur":9351, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Build-22.8.22.8/Pixel Shooter_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":3, "ts":1661102025272207, "dur":26890, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1661102025118623, "dur":157, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1661102025118784, "dur":9289, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1661102025128099, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":4, "ts":1661102025128101, "dur":489, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1661102025128598, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Build-22.8.22.8/Pixel Shooter_Data/app.info" }}
+,{ "pid":12345, "tid":4, "ts":1661102025128603, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1661102025133279, "dur":5165, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Build-22.8.22.8/Pixel Shooter_Data/app.info" }}
+,{ "pid":12345, "tid":4, "ts":1661102025138446, "dur":171, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Build-22.8.22.8/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":4, "ts":1661102025138621, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1661102025138733, "dur":3410, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Build-22.8.22.8/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":4, "ts":1661102025142236, "dur":291, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Build-22.8.22.8/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":4, "ts":1661102025142534, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1661102025142548, "dur":3145, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Build-22.8.22.8/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":4, "ts":1661102025145995, "dur":4603, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Build-22.8.22.8/Pixel Shooter_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1661102025150606, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1661102025150739, "dur":3351, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Build-22.8.22.8/Pixel Shooter_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1661102025154180, "dur":1254, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Build-22.8.22.8/Pixel Shooter_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1661102025155443, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1661102025155452, "dur":4281, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Build-22.8.22.8/Pixel Shooter_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1661102025159826, "dur":633, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Build-22.8.22.8/Pixel Shooter_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1661102025160465, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1661102025160473, "dur":4064, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Build-22.8.22.8/Pixel Shooter_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1661102025164628, "dur":336, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Build-22.8.22.8/Pixel Shooter_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1661102025164968, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1661102025164978, "dur":6130, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Build-22.8.22.8/Pixel Shooter_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1661102025171215, "dur":2376, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Build-22.8.22.8/Pixel Shooter_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1661102025173598, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1661102025173607, "dur":5736, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Build-22.8.22.8/Pixel Shooter_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1661102025179450, "dur":1381, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Build-22.8.22.8/Pixel Shooter_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1661102025180839, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1661102025180850, "dur":5003, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Build-22.8.22.8/Pixel Shooter_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1661102025185958, "dur":545, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Build-22.8.22.8/Pixel Shooter_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1661102025186508, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1661102025186519, "dur":3831, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Build-22.8.22.8/Pixel Shooter_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1661102025190449, "dur":364, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Build-22.8.22.8/Pixel Shooter_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1661102025190820, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1661102025190833, "dur":2991, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Build-22.8.22.8/Pixel Shooter_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1661102025193926, "dur":800, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Build-22.8.22.8/Pixel Shooter_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1661102025194731, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1661102025194741, "dur":11852, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Build-22.8.22.8/Pixel Shooter_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1661102025206719, "dur":1024, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Build-22.8.22.8/Pixel Shooter_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":4, "ts":1661102025208217, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1661102025208231, "dur":8543, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Build-22.8.22.8/Pixel Shooter_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":4, "ts":1661102025216907, "dur":1300, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Build-22.8.22.8/Pixel Shooter_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":4, "ts":1661102025218217, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1661102025219735, "dur":6610, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Build-22.8.22.8/Pixel Shooter_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":4, "ts":1661102025226463, "dur":386, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Build-22.8.22.8/Pixel Shooter_Data/Managed/Unity.2D.Common.Runtime.dll" }}
+,{ "pid":12345, "tid":4, "ts":1661102025226854, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1661102025226864, "dur":4453, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Build-22.8.22.8/Pixel Shooter_Data/Managed/Unity.2D.Common.Runtime.dll" }}
+,{ "pid":12345, "tid":4, "ts":1661102025231437, "dur":3780, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Build-22.8.22.8/Pixel Shooter_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":4, "ts":1661102025235223, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1661102025235235, "dur":8144, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Build-22.8.22.8/Pixel Shooter_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":4, "ts":1661102025243539, "dur":340, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Build-22.8.22.8/Pixel Shooter_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":4, "ts":1661102025243887, "dur":25, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1661102025243922, "dur":5775, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Build-22.8.22.8/Pixel Shooter_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":4, "ts":1661102025249795, "dur":1508, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Build-22.8.22.8/Pixel Shooter_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":4, "ts":1661102025251310, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1661102025251321, "dur":9231, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Build-22.8.22.8/Pixel Shooter_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":4, "ts":1661102025260641, "dur":85, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Build-22.8.22.8/Pixel Shooter_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":4, "ts":1661102025260729, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1661102025260736, "dur":4189, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Build-22.8.22.8/Pixel Shooter_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":4, "ts":1661102025265016, "dur":144, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Build-22.8.22.8/Pixel Shooter_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":4, "ts":1661102025265164, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1661102025265171, "dur":5285, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Build-22.8.22.8/Pixel Shooter_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":4, "ts":1661102025270560, "dur":118, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Build-22.8.22.8/Pixel Shooter_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":4, "ts":1661102025270685, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1661102025270694, "dur":2603, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Build-22.8.22.8/Pixel Shooter_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":4, "ts":1661102025273403, "dur":25706, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1661102025118742, "dur":72, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1661102025118815, "dur":9292, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1661102025128112, "dur":240, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Build-22.8.22.8/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":5, "ts":1661102025128358, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1661102025131175, "dur":7456, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Build-22.8.22.8/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":5, "ts":1661102025138713, "dur":166, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Build-22.8.22.8/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":5, "ts":1661102025138885, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1661102025139789, "dur":4227, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Build-22.8.22.8/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":5, "ts":1661102025144115, "dur":130804, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Build-22.8.22.8/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":5, "ts":1661102025274925, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1661102025274936, "dur":24042, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Build-22.8.22.8/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":5, "ts":1661102025299060, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
+,{ "pid":12345, "tid":5, "ts":1661102025299062, "dur":1, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1661102025118889, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1661102025118890, "dur":9197, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1661102025128099, "dur":1009, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Build-22.8.22.8/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":6, "ts":1661102025129115, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1661102025134108, "dur":3934, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Build-22.8.22.8/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":6, "ts":1661102025138165, "dur":1085, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Build-22.8.22.8/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":6, "ts":1661102025139293, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1661102025139305, "dur":3497, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Build-22.8.22.8/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":6, "ts":1661102025142896, "dur":2478, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Build-22.8.22.8/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":6, "ts":1661102025145381, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1661102025146298, "dur":3728, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Build-22.8.22.8/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":6, "ts":1661102025150087, "dur":1769, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Build-22.8.22.8/Pixel Shooter_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1661102025151865, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1661102025151878, "dur":2968, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Build-22.8.22.8/Pixel Shooter_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1661102025154937, "dur":800, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Build-22.8.22.8/Pixel Shooter_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1661102025155742, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1661102025155750, "dur":4115, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Build-22.8.22.8/Pixel Shooter_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1661102025159960, "dur":712, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Build-22.8.22.8/Pixel Shooter_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1661102025160680, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1661102025160688, "dur":3777, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Build-22.8.22.8/Pixel Shooter_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1661102025164552, "dur":709, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Build-22.8.22.8/Pixel Shooter_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1661102025165266, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1661102025165276, "dur":4169, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Build-22.8.22.8/Pixel Shooter_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1661102025169545, "dur":828, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Build-22.8.22.8/Pixel Shooter_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1661102025170383, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1661102025170394, "dur":2845, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Build-22.8.22.8/Pixel Shooter_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1661102025173331, "dur":1065, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Build-22.8.22.8/Pixel Shooter_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1661102025174405, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1661102025174417, "dur":5679, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Build-22.8.22.8/Pixel Shooter_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1661102025180500, "dur":550, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Build-22.8.22.8/Pixel Shooter_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1661102025181054, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1661102025181061, "dur":6265, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Build-22.8.22.8/Pixel Shooter_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1661102025187423, "dur":735, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Build-22.8.22.8/Pixel Shooter_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1661102025188163, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1661102025188173, "dur":4497, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Build-22.8.22.8/Pixel Shooter_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1661102025192760, "dur":597, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Build-22.8.22.8/Pixel Shooter_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1661102025193364, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1661102025193374, "dur":4831, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Build-22.8.22.8/Pixel Shooter_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1661102025198289, "dur":730, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Build-22.8.22.8/Pixel Shooter_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1661102025199027, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1661102025199038, "dur":4953, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Build-22.8.22.8/Pixel Shooter_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1661102025204103, "dur":503, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Build-22.8.22.8/Pixel Shooter_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1661102025204611, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1661102025204618, "dur":4075, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Build-22.8.22.8/Pixel Shooter_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1661102025208829, "dur":289, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Build-22.8.22.8/Pixel Shooter_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":6, "ts":1661102025209125, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1661102025209134, "dur":5031, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Build-22.8.22.8/Pixel Shooter_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":6, "ts":1661102025214269, "dur":394, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Build-22.8.22.8/Pixel Shooter_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":6, "ts":1661102025214672, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1661102025214685, "dur":3909, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Build-22.8.22.8/Pixel Shooter_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":6, "ts":1661102025218702, "dur":323, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Build-22.8.22.8/Pixel Shooter_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":6, "ts":1661102025219029, "dur":8, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1661102025219045, "dur":2696, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Build-22.8.22.8/Pixel Shooter_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":6, "ts":1661102025221851, "dur":805, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Build-22.8.22.8/Pixel Shooter_Data/Managed/Unity.Burst.Cecil.Pdb.dll" }}
+,{ "pid":12345, "tid":6, "ts":1661102025222662, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1661102025222675, "dur":5059, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Build-22.8.22.8/Pixel Shooter_Data/Managed/Unity.Burst.Cecil.Pdb.dll" }}
+,{ "pid":12345, "tid":6, "ts":1661102025227841, "dur":738, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Build-22.8.22.8/Pixel Shooter_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":6, "ts":1661102025228587, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1661102025228600, "dur":7542, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Build-22.8.22.8/Pixel Shooter_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":6, "ts":1661102025236274, "dur":817, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Build-22.8.22.8/Pixel Shooter_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":6, "ts":1661102025237098, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1661102025237108, "dur":6607, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Build-22.8.22.8/Pixel Shooter_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":6, "ts":1661102025243800, "dur":2371, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Build-22.8.22.8/Pixel Shooter_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":6, "ts":1661102025246177, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1661102025246185, "dur":5057, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Build-22.8.22.8/Pixel Shooter_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":6, "ts":1661102025251333, "dur":10321, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Build-22.8.22.8/Pixel Shooter_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":6, "ts":1661102025261660, "dur":6, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1661102025261677, "dur":8237, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Build-22.8.22.8/Pixel Shooter_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":6, "ts":1661102025270136, "dur":102, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Build-22.8.22.8/Pixel Shooter_Data/level0" }}
+,{ "pid":12345, "tid":6, "ts":1661102025270245, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1661102025270256, "dur":4658, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Build-22.8.22.8/Pixel Shooter_Data/level0" }}
+,{ "pid":12345, "tid":6, "ts":1661102025275011, "dur":24092, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1661102025118964, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1661102025118964, "dur":9132, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1661102025128100, "dur":1011, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Build-22.8.22.8/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":7, "ts":1661102025129115, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1661102025134634, "dur":3820, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Build-22.8.22.8/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":7, "ts":1661102025138558, "dur":823, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Build-22.8.22.8/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":7, "ts":1661102025139384, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1661102025139389, "dur":3418, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Build-22.8.22.8/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":7, "ts":1661102025142910, "dur":24761, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Build-22.8.22.8/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":7, "ts":1661102025167679, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1661102025167784, "dur":16159, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Build-22.8.22.8/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":7, "ts":1661102025184054, "dur":531, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Build-22.8.22.8/Pixel Shooter_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1661102025184594, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1661102025184606, "dur":2500, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Build-22.8.22.8/Pixel Shooter_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1661102025187185, "dur":328, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Build-22.8.22.8/Pixel Shooter_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1661102025187517, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1661102025187528, "dur":5124, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Build-22.8.22.8/Pixel Shooter_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1661102025192749, "dur":333, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Build-22.8.22.8/Pixel Shooter_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1661102025193089, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1661102025193099, "dur":3638, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Build-22.8.22.8/Pixel Shooter_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1661102025196831, "dur":357, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Build-22.8.22.8/Pixel Shooter_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1661102025197195, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1661102025197203, "dur":3976, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Build-22.8.22.8/Pixel Shooter_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1661102025201271, "dur":906, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Build-22.8.22.8/Pixel Shooter_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1661102025202186, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1661102025202197, "dur":5933, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Build-22.8.22.8/Pixel Shooter_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1661102025208248, "dur":929, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Build-22.8.22.8/Pixel Shooter_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":7, "ts":1661102025209183, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1661102025209193, "dur":10496, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Build-22.8.22.8/Pixel Shooter_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":7, "ts":1661102025219793, "dur":707, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Build-22.8.22.8/Pixel Shooter_Data/Managed/Unity.Burst.Unsafe.dll" }}
+,{ "pid":12345, "tid":7, "ts":1661102025220508, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1661102025220517, "dur":5846, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Build-22.8.22.8/Pixel Shooter_Data/Managed/Unity.Burst.Unsafe.dll" }}
+,{ "pid":12345, "tid":7, "ts":1661102025226458, "dur":334, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Build-22.8.22.8/Pixel Shooter_Data/Managed/Unity.2D.IK.Runtime.dll" }}
+,{ "pid":12345, "tid":7, "ts":1661102025226799, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1661102025226806, "dur":4183, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Build-22.8.22.8/Pixel Shooter_Data/Managed/Unity.2D.IK.Runtime.dll" }}
+,{ "pid":12345, "tid":7, "ts":1661102025231105, "dur":367, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Build-22.8.22.8/Pixel Shooter_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":7, "ts":1661102025231479, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1661102025231491, "dur":2625, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Build-22.8.22.8/Pixel Shooter_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":7, "ts":1661102025234208, "dur":519, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Build-22.8.22.8/Pixel Shooter_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":7, "ts":1661102025234734, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1661102025234744, "dur":3482, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Build-22.8.22.8/Pixel Shooter_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":7, "ts":1661102025238320, "dur":495, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Build-22.8.22.8/Pixel Shooter_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":7, "ts":1661102025238819, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1661102025238831, "dur":4237, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Build-22.8.22.8/Pixel Shooter_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":7, "ts":1661102025243171, "dur":7129, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Build-22.8.22.8/Pixel Shooter_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":7, "ts":1661102025250308, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1661102025250319, "dur":6364, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Build-22.8.22.8/Pixel Shooter_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":7, "ts":1661102025256797, "dur":238, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Build-22.8.22.8/Pixel Shooter_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":7, "ts":1661102025257089, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1661102025257100, "dur":7649, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Build-22.8.22.8/Pixel Shooter_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":7, "ts":1661102025264843, "dur":308, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Build-22.8.22.8/Pixel Shooter_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":7, "ts":1661102025265155, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1661102025265164, "dur":5487, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Build-22.8.22.8/Pixel Shooter_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":7, "ts":1661102025270776, "dur":100, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Build-22.8.22.8/Pixel Shooter_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":7, "ts":1661102025270889, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1661102025270895, "dur":3465, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Build-22.8.22.8/Pixel Shooter_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":7, "ts":1661102025274445, "dur":24667, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1661102025119056, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1661102025119057, "dur":9030, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1661102025128099, "dur":254, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Build-22.8.22.8/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":8, "ts":1661102025128392, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1661102025132003, "dur":6492, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Build-22.8.22.8/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":8, "ts":1661102025138624, "dur":212, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Build-22.8.22.8/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":8, "ts":1661102025138843, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1661102025140394, "dur":2287, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Build-22.8.22.8/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":8, "ts":1661102025142789, "dur":209, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Build-22.8.22.8/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":8, "ts":1661102025143005, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1661102025143015, "dur":3897, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Build-22.8.22.8/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":8, "ts":1661102025147011, "dur":1060, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Build-22.8.22.8/Pixel Shooter_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1661102025148078, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1661102025148802, "dur":3253, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Build-22.8.22.8/Pixel Shooter_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1661102025152153, "dur":1805, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Build-22.8.22.8/Pixel Shooter_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1661102025153968, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1661102025153981, "dur":4758, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Build-22.8.22.8/Pixel Shooter_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1661102025158846, "dur":760, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Build-22.8.22.8/Pixel Shooter_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1661102025159612, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1661102025159621, "dur":4460, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Build-22.8.22.8/Pixel Shooter_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1661102025164925, "dur":1375, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Build-22.8.22.8/Pixel Shooter_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1661102025166305, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1661102025166316, "dur":5691, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Build-22.8.22.8/Pixel Shooter_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1661102025172114, "dur":1484, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Build-22.8.22.8/Pixel Shooter_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1661102025173602, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1661102025173608, "dur":7702, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Build-22.8.22.8/Pixel Shooter_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1661102025181459, "dur":972, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Build-22.8.22.8/Pixel Shooter_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1661102025182439, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1661102025182450, "dur":9184, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Build-22.8.22.8/Pixel Shooter_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1661102025191726, "dur":869, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Build-22.8.22.8/Pixel Shooter_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1661102025192603, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1661102025192613, "dur":4212, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Build-22.8.22.8/Pixel Shooter_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1661102025196919, "dur":834, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Build-22.8.22.8/Pixel Shooter_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1661102025197757, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1661102025197763, "dur":3077, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Build-22.8.22.8/Pixel Shooter_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1661102025200938, "dur":659, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Build-22.8.22.8/Pixel Shooter_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1661102025201606, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1661102025201615, "dur":3826, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Build-22.8.22.8/Pixel Shooter_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1661102025205596, "dur":909, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Build-22.8.22.8/Pixel Shooter_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1661102025206510, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1661102025206519, "dur":2577, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Build-22.8.22.8/Pixel Shooter_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1661102025209197, "dur":314, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Build-22.8.22.8/Pixel Shooter_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":8, "ts":1661102025209558, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1661102025209569, "dur":5432, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Build-22.8.22.8/Pixel Shooter_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":8, "ts":1661102025215111, "dur":317, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Build-22.8.22.8/Pixel Shooter_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":8, "ts":1661102025215436, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1661102025215448, "dur":3592, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Build-22.8.22.8/Pixel Shooter_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":8, "ts":1661102025219141, "dur":1618, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Build-22.8.22.8/Pixel Shooter_Data/Managed/Unity.Mathematics.dll" }}
+,{ "pid":12345, "tid":8, "ts":1661102025220767, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1661102025220777, "dur":5145, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Build-22.8.22.8/Pixel Shooter_Data/Managed/Unity.Mathematics.dll" }}
+,{ "pid":12345, "tid":8, "ts":1661102025226018, "dur":507, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Build-22.8.22.8/Pixel Shooter_Data/Managed/Unity.2D.SpriteShape.Runtime.dll" }}
+,{ "pid":12345, "tid":8, "ts":1661102025226533, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1661102025226545, "dur":6710, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Build-22.8.22.8/Pixel Shooter_Data/Managed/Unity.2D.SpriteShape.Runtime.dll" }}
+,{ "pid":12345, "tid":8, "ts":1661102025233345, "dur":373, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Build-22.8.22.8/Pixel Shooter_Data/Managed/System.Runtime.dll" }}
+,{ "pid":12345, "tid":8, "ts":1661102025233725, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1661102025233736, "dur":4307, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Build-22.8.22.8/Pixel Shooter_Data/Managed/System.Runtime.dll" }}
+,{ "pid":12345, "tid":8, "ts":1661102025238216, "dur":339, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Build-22.8.22.8/Pixel Shooter_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":8, "ts":1661102025238561, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1661102025238572, "dur":6016, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Build-22.8.22.8/Pixel Shooter_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":8, "ts":1661102025244683, "dur":506, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Build-22.8.22.8/Pixel Shooter_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":8, "ts":1661102025245193, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1661102025245202, "dur":4999, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Build-22.8.22.8/Pixel Shooter_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":8, "ts":1661102025250303, "dur":425, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Build-22.8.22.8/Pixel Shooter_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":8, "ts":1661102025250732, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1661102025250739, "dur":4258, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Build-22.8.22.8/Pixel Shooter_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":8, "ts":1661102025255094, "dur":7840, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Build-22.8.22.8/Pixel Shooter_Data/Plugins/x86_64/lib_burst_generated.dll" }}
+,{ "pid":12345, "tid":8, "ts":1661102025262939, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1661102025265431, "dur":6980, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Build-22.8.22.8/Pixel Shooter_Data/Plugins/x86_64/lib_burst_generated.dll" }}
+,{ "pid":12345, "tid":8, "ts":1661102025272508, "dur":26592, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1661102025307119, "dur":2859, "ph":"X", "name": "ProfilerWriteOutput" }
+,
