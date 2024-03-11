@@ -11,6 +11,8 @@ public class GameManager : MonoBehaviour
     [Space]
     public PlayerHealth health;
     [Space]
+    public string StartingSavedId; // first bonfire
+    public Vector3 StartingPos;
     public Transform LastSavedPos;
     public string lastSavedId; // Bonfires check this string if its same with their Id, if it is it means they're the last bonfire used
     [Space]
@@ -77,7 +79,8 @@ public class GameManager : MonoBehaviour
     }
 
     public void Restart(){
-        Player.transform.position = LastSavedPos.position;
+        Player.transform.position = StartingPos;
+        RestartGame();
     }
 
     public void Resume(){
@@ -125,6 +128,17 @@ public class GameManager : MonoBehaviour
         SaveSystem.SetString("LastSavedId", lastSavedId);
         SaveSystem.SetFloat("CameraZoom", _camera.orthographicSize);
     }
+
+    public void RestartGame(){
+        SaveSystem.SetInt("Score", 0);
+        SaveSystem.SetFloat("seconds", 0);
+        SaveSystem.SetFloat("minutes", 0);
+        SaveSystem.SetFloat("hours", 0);
+        SaveSystem.SetVector3("LastSavedPos", StartingPos);
+        SaveSystem.SetString("LastSavedId", StartingSavedId);
+        SaveSystem.SetFloat("CameraZoom", _camera.orthographicSize);
+    }
+
 
     private void OnApplicationQuit() {
         Save_Game();

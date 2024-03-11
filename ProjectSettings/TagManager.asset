@@ -12,6 +12,7 @@ TagManager:
   - Design
   - Trigger
   - PassableFloor
+  - Ignore
   layers:
   - Default
   - TransparentFX
