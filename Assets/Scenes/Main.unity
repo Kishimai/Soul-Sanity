@@ -6984,6 +6984,37 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &428736665
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 428736666}
+  m_Layer: 0
+  m_Name: Pos
+  m_TagString: Untagged
+  m_Icon: {fileID: 3936346786652291628, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &428736666
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 428736665}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -23.01, y: 12.43, z: -0.026828844}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &436184355
 GameObject:
   m_ObjectHideFlags: 0
@@ -8116,8 +8147,8 @@ GameObject:
   - component: {fileID: 508418401}
   - component: {fileID: 508418400}
   m_Layer: 0
-  m_Name: Spawn Floor (3)
-  m_TagString: Floor
+  m_Name: Door-1
+  m_TagString: Door
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10251,6 +10282,7 @@ GameObject:
   m_Component:
   - component: {fileID: 613082820}
   - component: {fileID: 613082819}
+  - component: {fileID: 613082821}
   m_Layer: 0
   m_Name: GameManager
   m_TagString: Untagged
@@ -10301,6 +10333,21 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &613082821
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 613082818}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e7990be3b7caa9f4a8767cc82ac30ecc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  door: {fileID: 508418398}
+  player: {fileID: 1153907493}
+  nextPos: {fileID: 428736666}
 --- !u!1 &614542049
 GameObject:
   m_ObjectHideFlags: 0
@@ -10942,7 +10989,7 @@ GameObject:
   m_Layer: 5
   m_Name: playerHealth
   m_TagString: Untagged
-  m_Icon: {fileID: 0}
+  m_Icon: {fileID: -964228994112308473, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -18562,6 +18609,7 @@ MonoBehaviour:
   playerAnim: {fileID: 1153907494}
   DeathObj: {fileID: 524499413255697303, guid: 6042bd7ff0c7a154688e32cd7e3ab559, type: 3}
   playerChecker: {fileID: 866283794}
+  doorSystem: {fileID: 613082821}
   isGrounded: 0
   CanClimb: 0
   IsSlowed: 0
@@ -25749,6 +25797,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: -178.627
       objectReference: {fileID: 0}
+    - target: {fileID: 4626411526242753494, guid: 0cf08477e28e8cc4d841513ea2b3cd2e, type: 3}
+      propertyPath: m_Icon
+      value: 
+      objectReference: {fileID: 7250588514170254948, guid: 0000000000000000d000000000000000, type: 0}
     - target: {fileID: 4626411526242753494, guid: 0cf08477e28e8cc4d841513ea2b3cd2e, type: 3}
       propertyPath: m_Name
       value: Spike (2)
@@ -34454,3 +34506,4 @@ SceneRoots:
   - {fileID: 1204021439}
   - {fileID: 1315915393}
   - {fileID: 1632548281}
+  - {fileID: 428736666}

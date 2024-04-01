@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.UIElements;
 
 public class PlayerController : MonoBehaviour{
     public int TopDamage; // variable used to damage monsters whenever hit on its head
@@ -29,6 +30,7 @@ public class PlayerController : MonoBehaviour{
     public Animator playerAnim;
     public GameObject DeathObj;
     public Transform playerChecker;
+    public DoorSystem doorSystem;
     [Space] // Players output
     Vector3 cameraPos;
     public bool isGrounded = false;
@@ -214,6 +216,10 @@ public class PlayerController : MonoBehaviour{
         if(other.gameObject.tag == "PassableFloor" && other.gameObject.transform.position.y > playerChecker.transform.position.y){
             other.gameObject.GetComponent<BoxCollider2D>().isTrigger = true;
         }
+
+        if(other.gameObject.tag == "Door"){
+            doorSystem.DetectedDoor();
+        }
     }
 
     public void OnCollisionExit2D(Collision2D other) {
@@ -239,3 +245,5 @@ public class PlayerController : MonoBehaviour{
 
     #endregion
 }
+
+//hello world (from migs)

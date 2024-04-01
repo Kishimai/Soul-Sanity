@@ -13,6 +13,7 @@ TagManager:
   - Trigger
   - PassableFloor
   - Ignore
+  - Door
   layers:
   - Default
   - TransparentFX
