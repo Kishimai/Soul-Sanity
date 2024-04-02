@@ -30,7 +30,7 @@ public class PlayerController : MonoBehaviour{
     public Animator playerAnim;
     public GameObject DeathObj;
     public Transform playerChecker;
-    public DoorSystem doorSystem;
+    public DoorSystem doorSystem; //("migs" search bookmark)
     [Space] // Players output
     Vector3 cameraPos;
     public bool isGrounded = false;
@@ -219,6 +219,7 @@ public class PlayerController : MonoBehaviour{
 
         if(other.gameObject.tag == "Door"){
             doorSystem.DetectedDoor();
+            //("migs" bookmark)
         }
     }
 
@@ -245,5 +246,3 @@ public class PlayerController : MonoBehaviour{
 
     #endregion
 }
-
-//hello world (from migs)
