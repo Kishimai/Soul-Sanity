@@ -30,7 +30,6 @@ public class PlayerController : MonoBehaviour{
     public Animator playerAnim;
     public GameObject DeathObj;
     public Transform playerChecker;
-    public DoorSystem doorSystem;
     [Space] // Players output
     Vector3 cameraPos;
     public bool isGrounded = false;
@@ -215,10 +214,6 @@ public class PlayerController : MonoBehaviour{
 
         if(other.gameObject.tag == "PassableFloor" && other.gameObject.transform.position.y > playerChecker.transform.position.y){
             other.gameObject.GetComponent<BoxCollider2D>().isTrigger = true;
-        }
-
-        if(other.gameObject.tag == "Door"){
-            doorSystem.DetectedDoor();
         }
     }
 
