@@ -30,6 +30,9 @@ public class PlayerController : MonoBehaviour{
     public Animator playerAnim;
     public GameObject DeathObj;
     public Transform playerChecker;
+<<<<<<< HEAD
+=======
+>>>>>>> fa2bd6507475963ec2990e0504c11265c37ee949
     [Space] // Players output
     Vector3 cameraPos;
     public bool isGrounded = false;
@@ -215,6 +218,14 @@ public class PlayerController : MonoBehaviour{
         if(other.gameObject.tag == "PassableFloor" && other.gameObject.transform.position.y > playerChecker.transform.position.y){
             other.gameObject.GetComponent<BoxCollider2D>().isTrigger = true;
         }
+<<<<<<< HEAD
+=======
+
+        if(other.gameObject.tag == "Door"){
+            doorSystem.DetectedDoor();
+            //("migs" bookmark)
+        }
+>>>>>>> fa2bd6507475963ec2990e0504c11265c37ee949
     }
 
     public void OnCollisionExit2D(Collision2D other) {
@@ -240,5 +251,3 @@ public class PlayerController : MonoBehaviour{
 
     #endregion
 }
-
-//hello world (from migs)
