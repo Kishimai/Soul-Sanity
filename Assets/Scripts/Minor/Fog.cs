@@ -11,4 +11,10 @@ public class Fog : MonoBehaviour
             manager.ChangeFogLocation(this.gameObject);
         }
     }
+
+    public void OnTriggerExit2D(Collider2D other){
+        if(other.gameObject.tag == "Player"){
+            manager.ChangeFogLocation(this.gameObject);
+        }
+    }
 }
