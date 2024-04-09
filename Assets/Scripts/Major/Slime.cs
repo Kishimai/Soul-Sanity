@@ -81,6 +81,7 @@ public class Slime : MonoBehaviour
             GameManager.ReceiveScore(3);
             player.GetComponent<PlayerController>().Manager.Heal(10);
         }
+        player.GetComponent<PlayerController>().soundSystem.PlaySoundEffect(5);
         Destroy(_deathEffect, 10);
         Destroy(this.gameObject);
     }

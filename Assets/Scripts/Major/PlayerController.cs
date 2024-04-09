@@ -30,6 +30,7 @@ public class PlayerController : MonoBehaviour{
     public Animator playerAnim;
     public GameObject DeathObj;
     public Transform playerChecker;
+    public SoundSystem soundSystem;
     [Space] // Players output
     Vector3 cameraPos;
     public bool isGrounded = false;
@@ -104,6 +105,7 @@ public class PlayerController : MonoBehaviour{
         if (Input.GetKeyDown(KeyCode.Space) && isGrounded && !CanClimb && UnderCollisions != null){
             if(UnderCollisions.Contains("Floor") || UnderCollisions.Contains("PassableFloor")){
                 rig2d.velocity = new Vector2(rig2d.velocity.x, jumpHeight);
+                soundSystem.PlaySoundEffect(0);
             }
         }
 
@@ -171,7 +173,7 @@ public class PlayerController : MonoBehaviour{
     }
 
     public void Died(){
-        Debug.Log("DIED");
+        soundSystem.PlaySoundEffect(1);
         if(CurrentSoul != null){
             Destroy(CurrentSoul);
             var Soul = Instantiate(DeathObj, this.transform.position, Quaternion.identity);
@@ -192,6 +194,7 @@ public class PlayerController : MonoBehaviour{
 
     public void Attack(){ // Registers an attack on Enemies near.
         Debug.Log("Attack");
+        soundSystem.PlaySoundEffect(2);
         Collider2D[] _enemiesNear = Physics2D.OverlapCircleAll(transform.position, playerAttackRange);
         foreach(Collider2D _enemy in _enemiesNear){
             GameObject Enemy = _enemy.gameObject;
