@@ -1,18 +1,19 @@
 using System.Collections;
 using System.Collections.Generic;
+using TMPro;
 using UnityEngine;
 
 public class FogOfWar : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+    public List<GameObject> Fogs = new List<GameObject>();
 
-    // Update is called once per frame
-    void Update()
-    {
-        
+    public void ChangeFog(GameObject ActivateFog){
+        foreach(GameObject fog in Fogs){
+            if(fog != ActivateFog){
+                fog.SetActive(true);
+            } else {
+                fog.SetActive(false);
+            }
+        }
     }
 }

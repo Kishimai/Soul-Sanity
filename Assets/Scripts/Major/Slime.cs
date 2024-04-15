@@ -12,7 +12,7 @@ public class Slime : MonoBehaviour
     public Transform groundDetect, heightDetect;
     public Rigidbody2D Rigid2d;
 
-    private GameObject player;
+    public GameObject player;
     // SLIME STATES
     private bool PlayerOnSight = false;
     private bool OnCoolDown = false;
@@ -60,7 +60,6 @@ public class Slime : MonoBehaviour
 
     private void OnCollisionEnter2D(Collision2D other) {
         if(other.gameObject.tag == "Player"){
-            player = other.gameObject;
             if(other.gameObject.GetComponent<PlayerController>().playerChecker.transform.position.y > this.transform.position.y - 0.5f){
                 if(other.gameObject.GetComponent<PlayerController>().isGrounded == true){
                     other.gameObject.GetComponent<Rigidbody2D>().AddForce(Vector2.up * bounceStrength);

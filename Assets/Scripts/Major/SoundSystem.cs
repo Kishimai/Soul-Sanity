@@ -10,11 +10,17 @@ public class SoundSystem : MonoBehaviour
     // List of audio clips for sound effects
     public List<AudioClip> soundEffects;
 
+    // List of audio clips for narrator
+    public List<AudioClip> narratorDialogue;
+
     // The audio source component for background music
     private AudioSource backgroundAudioSource;
 
     // The audio source component for sound effects
     private AudioSource sfxAudioSource;
+
+    // The audio source component for Narrator sound
+    private AudioSource narratorAudioSource;
 
     // The duration of fade in and fade out in seconds
     public float fadeInDuration = 1f;
@@ -31,6 +37,7 @@ public class SoundSystem : MonoBehaviour
         // Create AudioSource components if not already present
         backgroundAudioSource = gameObject.AddComponent<AudioSource>();
         sfxAudioSource = gameObject.AddComponent<AudioSource>();
+        narratorAudioSource = gameObject.AddComponent<AudioSource>();
 
         // Set the initial volume for background music
         backgroundAudioSource.volume = backgroundVolume;
@@ -95,6 +102,18 @@ public class SoundSystem : MonoBehaviour
         if (index >= 0 && index < soundEffects.Count)
         {
             sfxAudioSource.PlayOneShot(soundEffects[index]);
+        }
+        else
+        {
+            Debug.LogWarning("Invalid sound effect index.");
+        }
+    }
+
+    public void PlaySoundNarration(int index)
+    {
+        if (index >= 0 && index < soundEffects.Count)
+        {
+            narratorAudioSource.PlayOneShot(narratorDialogue[index]);
         }
         else
         {

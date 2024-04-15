@@ -1,3 +1,4 @@
+
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -13,8 +14,8 @@ public class PlayerController : MonoBehaviour{
     [SerializeField] float maxVelocitySpeed = 9.8f;
     [SerializeField] float jumpHeight = 6.5f;
     [SerializeField] float gravityScale = 1.5f;
-    [SerializeField] float climbimgSpeed = 2f;
-    [SerializeField] float playerAttackRange = 10f;
+    [SerializeField] float climbingSpeed = 2f;
+    [SerializeField] float playerInteractRange = 10f;
     [Space]
     public GameObject cameraTarget;
     public Camera mainCamera;
@@ -24,6 +25,7 @@ public class PlayerController : MonoBehaviour{
     public bool facingRight = true;
     [Space] // Variables
     public GameManager Manager;
+    public FogOfWar fogManager;
     public PlayerHealth Health;
     public Rigidbody2D rig2d;
     public BoxCollider2D mainCollider;
@@ -36,16 +38,15 @@ public class PlayerController : MonoBehaviour{
     public bool isGrounded = false;
     public bool CanClimb = false;
     public bool IsSlowed = false;
-    public bool IsWalking = false;
     public bool CanZoom = true;
     [Space]
-    public float moveDirection = 0;
-    GameObject RaycastHit;
+    public float moveDirection = 0; // -1 or 1
     public float Noise = 0f; // out of 100
     [Space]
     public List<string> UnderCollisions = new List<string>(); // under the player collisions
     [Space] // Death Funcitons
     GameObject CurrentSoul; // Current soul that is in session
+    float lastDirection;
 
     void Start()
     {
@@ -70,6 +71,7 @@ public class PlayerController : MonoBehaviour{
 
         if ((Input.GetKey(KeyCode.A) || Input.GetKey(KeyCode.D))){
             moveDirection = Input.GetKey(KeyCode.A) ? -1 : 1;
+            lastDirection = Input.GetKey(KeyCode.A) ? -1 : 1;
             playerAnim.SetBool("IsRunning", true);
             playerAnim.SetBool("SitSip", false);
         }
@@ -78,12 +80,6 @@ public class PlayerController : MonoBehaviour{
                 moveDirection = 0;
                 playerAnim.SetBool("IsRunning", false);
             }
-        }
-
-        if(Input.GetKeyDown(KeyCode.LeftShift)){
-            Walking();
-        } else{
-            IsWalking = true;
         }
         
         if(Input.GetKeyUp(KeyCode.A) || Input.GetKeyUp(KeyCode.D) && moveDirection != 0){
@@ -128,7 +124,11 @@ public class PlayerController : MonoBehaviour{
 
         // Attack Input
         if(Input.GetKeyDown(KeyCode.Mouse0)){
-            Attack();
+            Interact(KeyCode.Mouse0);
+        }
+
+        if(Input.GetKeyDown(KeyCode.E)){
+            Interact(KeyCode.E);
         }
         
     }
@@ -160,16 +160,11 @@ public class PlayerController : MonoBehaviour{
         }
 
         if(CanClimb){
-            if(Input.GetKey(KeyCode.W)){
-                rig2d.AddForce(Vector2.up * climbimgSpeed * Time.deltaTime, ForceMode2D.Impulse);
-            } else if(Input.GetKey(KeyCode.S)){
-                rig2d.AddForce(Vector2.down * climbimgSpeed * Time.deltaTime, ForceMode2D.Impulse);
+            if(Input.GetKey(KeyCode.Space) || Input.GetKey(KeyCode.W)){
+                rig2d.AddForce(Vector2.up * climbingSpeed * Time.deltaTime, ForceMode2D.Impulse);
+                Debug.Log("Climbing");
             }
         }
-    }
-
-    public void Walking(){
-        IsSlowed = true;
     }
 
     public void Died(){
@@ -192,16 +187,32 @@ public class PlayerController : MonoBehaviour{
         GameManager.TotalScore = 0;
     }
 
-    public void Attack(){ // Registers an attack on Enemies near.
-        Debug.Log("Attack");
+    public void Interact(KeyCode key){ // Registers an interact/attack on nearby interactables.
         soundSystem.PlaySoundEffect(2);
-        Collider2D[] _enemiesNear = Physics2D.OverlapCircleAll(transform.position, playerAttackRange);
-        foreach(Collider2D _enemy in _enemiesNear){
-            GameObject Enemy = _enemy.gameObject;
-            if(Enemy.tag == "Enemy"){
-                if(Enemy.GetComponent<Slime>()){
-                    Enemy.GetComponent<Slime>().health -= Damage;
-                    Enemy.GetComponent<Rigidbody2D>().AddForce(-Vector2.right * 500);
+        Collider2D[] objectInRange = Physics2D.OverlapCircleAll(transform.position, playerInteractRange);
+        foreach(Collider2D collidersDetected in objectInRange){
+            if(collidersDetected.transform.position.x > this.transform.position.x && lastDirection == 1 || collidersDetected.transform.position.x < this.transform.position.x && lastDirection == -1){ // On the Right
+                if(key == KeyCode.Mouse0){
+                    GameObject Enemy = collidersDetected.gameObject;
+                    if(Enemy.tag == "Enemy"){
+                        if(Enemy.GetComponent<Slime>()){
+                            Enemy.GetComponent<Slime>().health -= Damage;
+                            if(lastDirection == -1){
+                                Enemy.GetComponent<Rigidbody2D>().AddForce(-Vector2.right * 500, ForceMode2D.Impulse);
+                                Enemy.GetComponent<Rigidbody2D>().AddForce(Vector2.up * 300, ForceMode2D.Impulse);
+                            } else if(lastDirection == 1){
+                                Enemy.GetComponent<Rigidbody2D>().AddForce(-Vector2.left * 500, ForceMode2D.Impulse);
+                                Enemy.GetComponent<Rigidbody2D>().AddForce(Vector2.up * 300, ForceMode2D.Impulse);
+                            }
+                        }
+                    }
+                } else if(key == KeyCode.E){
+                    GameObject reached = collidersDetected.gameObject;
+                    if(reached.tag == "Door"){
+                        if(reached.GetComponent<Door>()){
+                            reached.GetComponent<Door>().InteractedWith();
+                        }
+                    }
                 }
             }
         }
@@ -228,6 +239,11 @@ public class PlayerController : MonoBehaviour{
         if(other.gameObject.tag == "Vine"){
             CanClimb = true;
             isGrounded = false;
+        }
+
+        if(other.gameObject.tag == "Fog"){
+            fogManager.ChangeFog(other.gameObject);
+            Debug.Log("ChangedFog" + other.gameObject.name);
         }
     }
 
