@@ -3256,8 +3256,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4971d1d033dfe784a93ba8bc0727a74a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  player: {fileID: 0}
-  isGroound: 0
+  player: {fileID: 1153907493}
+  isGroound: 1
 --- !u!61 &189084455
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -8429,7 +8429,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   player: {fileID: 1153907493}
-  isGroound: 1
+  isGroound: 0
 --- !u!4 &509036797 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4268300290381112073, guid: ac1d8fba9114ef941bc59ff6bc7313fb, type: 3}
@@ -19172,8 +19172,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4971d1d033dfe784a93ba8bc0727a74a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  player: {fileID: 0}
-  isGroound: 0
+  player: {fileID: 1153907493}
+  isGroound: 1
 --- !u!61 &1226333834
 BoxCollider2D:
   m_ObjectHideFlags: 0
