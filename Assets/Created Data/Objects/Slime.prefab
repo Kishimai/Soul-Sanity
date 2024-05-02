@@ -183,7 +183,7 @@ SpriteRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 9d984d6d22efbe54180d27eb7265ac95, type: 2}
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -261,6 +261,7 @@ MonoBehaviour:
   groundDetect: {fileID: 6458439834572927821}
   heightDetect: {fileID: 3107012525670279798}
   Rigid2d: {fileID: 6458439834910841715}
+  player: {fileID: 0}
 --- !u!60 &2569566324976406325
 PolygonCollider2D:
   m_ObjectHideFlags: 0
