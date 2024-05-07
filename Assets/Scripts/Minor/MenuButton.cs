@@ -11,6 +11,7 @@ public class MenuButton : MonoBehaviour, IPointerUpHandler, IPointerDownHandler
     public string Containing;
 
     private void Start() {
+        Time.timeScale = 1f;        
         text = GetComponentInChildren<TMP_Text>();
     }
     
