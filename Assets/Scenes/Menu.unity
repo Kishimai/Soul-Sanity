@@ -1879,6 +1879,8 @@ GameObject:
   m_Component:
   - component: {fileID: 764818809}
   - component: {fileID: 764818810}
+  - component: {fileID: 764818811}
+  - component: {fileID: 764818812}
   m_Layer: 0
   m_Name: GameManager
   m_TagString: Untagged
@@ -1914,6 +1916,46 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gameManager: {fileID: 0}
+--- !u!114 &764818811
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 764818808}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 95344823a5b88fd49a84397080e6ffd7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &764818812
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 764818808}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 97895c3820b15964389ecb5d4dd44021, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Player: {fileID: 0}
+  _camera: {fileID: 0}
+  health: {fileID: 0}
+  StartingSavedId: 
+  StartingPos: {x: 0, y: 0, z: 0}
+  LastSavedPos: {fileID: 0}
+  lastSavedId: 
+  TabbedCanvas: {fileID: 0}
+  PausedCanvas: {fileID: 0}
+  ScoreText: {fileID: 0}
+  TimeText: {fileID: 0}
+  IsPaused: 0
+  OnZone: 0
+  seconds: 0
+  minutes: 0
+  hours: 0
 --- !u!1 &793864643
 GameObject:
   m_ObjectHideFlags: 0
@@ -2019,38 +2061,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a79441f348de89743a2939f4d699eac1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_RenderShadows: 1
-  m_RequiresDepthTextureOption: 2
-  m_RequiresOpaqueTextureOption: 2
-  m_CameraType: 0
-  m_Cameras: []
-  m_RendererIndex: -1
-  m_VolumeLayerMask:
-    serializedVersion: 2
-    m_Bits: 1
-  m_VolumeTrigger: {fileID: 0}
-  m_VolumeFrameworkUpdateModeOption: 2
-  m_RenderPostProcessing: 0
-  m_Antialiasing: 0
-  m_AntialiasingQuality: 2
-  m_StopNaN: 0
-  m_Dithering: 0
-  m_ClearDepth: 1
-  m_AllowXRRendering: 1
-  m_AllowHDROutput: 1
-  m_UseScreenCoordOverride: 0
-  m_ScreenSizeOverride: {x: 0, y: 0, z: 0, w: 0}
-  m_ScreenCoordScaleBias: {x: 0, y: 0, z: 0, w: 0}
-  m_RequiresDepthTexture: 0
-  m_RequiresColorTexture: 0
-  m_Version: 2
-  m_TaaSettings:
-    quality: 3
-    frameInfluence: 0.1
-    jitterScale: 1
-    mipBias: 0
-    varianceClampScale: 0.9
-    contrastAdaptiveSharpening: 0
 --- !u!1001 &826695845
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4831,8 +4841,8 @@ CanvasRenderer:
 SceneRoots:
   m_ObjectHideFlags: 0
   m_Roots:
+  - {fileID: 764818809}
   - {fileID: 793864646}
   - {fileID: 683034339}
   - {fileID: 1027918857}
-  - {fileID: 764818809}
   - {fileID: 500384056}

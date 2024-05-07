@@ -2274,12 +2274,12 @@ GameObject:
   - component: {fileID: 116908902}
   - component: {fileID: 116908901}
   m_Layer: 5
-  m_Name: Escape Tab
+  m_Name: PausedCanvas
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &116908900
 RectTransform:
   m_ObjectHideFlags: 0
@@ -8917,7 +8917,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 0}
   m_AnchorMax: {x: 1, y: 0}
-  m_AnchoredPosition: {x: -1019.6, y: 459}
+  m_AnchoredPosition: {x: -1064.5, y: 459}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &496443213
@@ -10955,7 +10955,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ee6c11e8a5453b54bb0173ea547b6e32, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  pauseMenu: {fileID: 0}
+  pauseMenu: {fileID: 116908899}
 --- !u!114 &613082825
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -20875,7 +20875,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 613082825}
         m_TargetAssemblyTypeName: Menu, Assembly-CSharp
-        m_MethodName: Back2Menu
+        m_MethodName: BackToMenu
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -29433,7 +29433,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 0}
   m_AnchorMax: {x: 1, y: 0}
-  m_AnchoredPosition: {x: -1019.6, y: 513}
+  m_AnchoredPosition: {x: -1064.5, y: 512}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1747148654
@@ -30818,7 +30818,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &1792653669
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -35201,7 +35201,7 @@ GameObject:
   - component: {fileID: 2089455378}
   - component: {fileID: 2089455379}
   m_Layer: 5
-  m_Name: Tabbed Screen
+  m_Name: TabbedCanvas
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
