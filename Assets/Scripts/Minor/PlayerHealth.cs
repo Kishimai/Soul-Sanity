@@ -34,6 +34,5 @@ public class PlayerHealth : MonoBehaviour
     }
 
     public static void Heal(int healAmount){
-        
     }
 }
