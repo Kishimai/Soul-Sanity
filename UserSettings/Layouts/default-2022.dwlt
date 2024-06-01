@@ -773,9 +773,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 522.5214, y: 1688.5688, z: 3.8828504}
+    m_Target: {x: 486.47134, y: 1796.8783, z: 2.1989298}
     speed: 2
-    m_Value: {x: 522.5214, y: 1688.5688, z: 3.8828504}
+    m_Value: {x: 494.60214, y: 1772.4309, z: 2.578549}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -825,9 +825,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
-    m_Target: 713.1701
+    m_Target: 881.56274
     speed: 2
-    m_Value: 713.1701
+    m_Value: 843.6007
   m_Ortho:
     m_Target: 1
     speed: 2
@@ -1199,18 +1199,18 @@ MonoBehaviour:
     m_ExpandedInstanceIDs: c62300004e7b000046320600d0e50000966c0000b26c00004655000000000000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
-      m_Name: InventoryManager
-      m_OriginalName: InventoryManager
+      m_Name: 
+      m_OriginalName: 
       m_EditFieldRect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 0
         height: 0
-      m_UserData: 4362
+      m_UserData: 0
       m_IsWaitingForDelay: 0
       m_IsRenaming: 0
-      m_OriginalEventType: 0
+      m_OriginalEventType: 11
       m_IsRenamingFilename: 1
       m_ClientGUIView: {fileID: 9}
     m_CreateAssetUtility:
